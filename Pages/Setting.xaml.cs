@@ -13,21 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ApplicationSettings_Bartova
+namespace ApplicationSettings_Bartova.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Setting.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Setting : Page
     {
-        public MainWindow()
+        public Setting()
         {
             InitializeComponent();
-            OpenPages(new Pages.Setting());
-        }
-        public void OpenPages(Page openPage)
-        {
-            Frame.Navigate(openPage);
         }
     }
 }
