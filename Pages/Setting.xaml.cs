@@ -24,5 +24,20 @@ namespace ApplicationSettings_Bartova.Pages
         {
             InitializeComponent();
         }
+
+        private void OpenDatabase(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ChangeScreenResolution(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void SelectColorApplication(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
